@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  /*overflow-y: hidden;*/
+  overflow-y: hidden;
   height: 100%;
   transition: 12s;
 }
@@ -12,8 +12,4 @@
   height: 100%;
   transition: 12s;
   overflow-x: hidden;
-}
-
-.test {
-	transition: 5s;
 }

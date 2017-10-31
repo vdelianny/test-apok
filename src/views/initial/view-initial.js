@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import './view-initial.css';
-import 'bootstrap/dist/css/bootstrap.css'
 import Img from '../images/home-logo.png';
 
 class ViewInitial extends Component {
+
+
+/*Componente de la vista 1. Mostarmos el grid principal*/
+
+
   render() {
 
     return (

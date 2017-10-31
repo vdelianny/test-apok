@@ -1,6 +1,7 @@
 .view-initial {
   height: 100% ;
 }
+/* Imagen cental */
 
 .img-logo {
     width: 80%;
@@ -9,6 +10,7 @@
     margin-right: 10%;
     margin-top: 5%;
 }
+/* ROWS */
 
 .section {
   height: 100%;

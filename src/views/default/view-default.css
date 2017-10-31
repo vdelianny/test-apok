@@ -2,6 +2,7 @@
   height: 100%;
   animation:opac 2s
 }
+/* Imagen cental */
 .img-logo {
     width: 80%;
     height: 80%;
@@ -9,6 +10,12 @@
     margin-right: 10%;
     margin-top: 5%;
 }
+/* Modal */
+.modal-backdrop.in {
+    filter: alpha(opacity=50) !important;
+    opacity: .9 !important;
+}
+/* Animación de entrada */
 @keyframes opac{
   from{
     opacity:0.5
@@ -17,6 +24,8 @@
     opacity:1
   }
 }
+
+/* ROWS */
 .section {
   height: 100%;
   padding: 0px !important;
@@ -32,6 +41,7 @@
   font-size: unset;
   background-color: rgba(60, 57, 57, 0.43);
   color: #fff;
+  font-family: 'Merriweather Sans', sans-serif;
   padding: 3% 6% 0 0;
 }
 /* Row Up */
