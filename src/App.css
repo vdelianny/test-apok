@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  /*overflow-y: hidden;*/
+  height: 100%;
+  transition: 12s;
+}
+#root{
+  height: 100%;
+  transition: 12s;
+}
+.view {
+  height: 100%;
+  transition: 12s;
+  overflow-x: hidden;
+}
+
+.test {
+	transition: 5s;
+}

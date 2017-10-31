@@ -1,0 +1,144 @@
+.view-default {
+  height: 100%;
+  animation:opac 2s
+}
+.img-logo {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+@keyframes opac{
+  from{
+    opacity:0.5
+  } 
+  to{
+    opacity:1
+  }
+}
+.section {
+  height: 100%;
+  padding: 0px !important;
+}
+.row{
+  height: calc(100% / 3);
+}
+.text-item {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: right;
+  font-size: unset;
+  background-color: rgba(60, 57, 57, 0.43);
+  color: #fff;
+  padding: 3% 6% 0 0;
+}
+/* Row Up */
+
+.blue-up-one {
+  background-color: #1d8da1;
+}
+
+.blue-up-two {
+  background-image: url(../images/home-us-display.jpg);
+  background-color: #23729d;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.blue-up-two:hover {
+  background-image: url(../images/320x320-efecto-over2.jpg);
+}
+
+.blue-up-three {
+  background-color: #19859f;
+}
+
+.blue-up-four {
+  background-color: #1e8da0;
+}
+
+.orange-up-one {
+  background-image: url(../images/home-services-display.jpg);
+  background-color: #ec8409;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.orange-up-one:hover {
+  background-image: url(../images/320x320-efecto-over4.jpg);
+}
+
+.orange-up-two {
+  background-color: #ee9203;
+}
+
+/* Row Medium*/
+
+.blue-medium-one {
+  background-color: #1a7e9e;
+}
+
+.blue-medium-two {
+  background-color: #23729b;
+}
+
+.orange-medium-one {
+  background-color: #ec8409;
+}
+
+.orange-medium-two {
+  background-image: url(../images/home-blog-display.jpg);
+  background-color: #ea7c0b;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.orange-medium-two:hover {
+  background-image: url(../images/320x320-efecto-over1.jpg);
+}
+
+/* Row Bottom */
+
+.blue-bottom-one {
+  background-color: #1a8aa0;
+}
+
+.blue-bottom-two {
+  background-color: #1a8aa0;
+}
+
+.blue-bottom-three {
+  background-image: url(../images/home-us-contact.jpg);
+  background-color: #1f799c;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.blue-bottom-three:hover {
+  background-image: url(../images/320x320-efecto-over5.jpg);
+}
+
+.blue-bottom-four {
+  background-color: #1e8da0;
+}
+.orange-bottom-one {
+  background-color: #ee9203;
+}
+
+.orange-bottom-two {
+  background-image: url(../images/home-portfolio-display.jpg);
+  background-color: #ee9203;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.orange-bottom-two:hover {
+  background-image: url(../images/home-portfolio-over.jpg);
+}
